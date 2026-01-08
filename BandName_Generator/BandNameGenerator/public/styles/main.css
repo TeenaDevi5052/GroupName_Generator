@@ -1,0 +1,55 @@
+body {
+  background: #e6dbdb;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    background-image: url('Starr\ Montauns.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  color: rgb(253, 253, 253);
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  font-size: 0.9rem;
+  background: #d5ace8;
+  padding: 1rem;
+  color: rgb(136, 15, 229);
+  cursor: pointer;
+  border-radius:20px;
+  border:2px solid black;
+  font-weight: 700;
+
+}
+input:hover{
+background-color: rgb(136, 15, 229);
+color:white;
+}
+
+h4{
+color:white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
